@@ -1,0 +1,147 @@
+ header {
+ 	height: 700px;
+ 	background-image: url(../images/header/header.png);
+ 	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+ header nav ul li {
+ 	display: inline-block;
+ 	margin-right: 40px;
+ }
+
+ header nav ul a{
+ 	color: #fff;
+ 	font-size: 14px;
+ 	text-decoration: none;
+ }
+
+ header nav ul a:hover {
+ 	color: #000;
+ 	text-decoration: underline;
+ }
+
+ header div img {
+ 	padding-top: 37px;
+ }
+
+.menu1 {
+	padding-top: 37px;
+}
+
+header div.welcome h1 {
+	margin-top: 250px;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+}
+
+header div.welcome p {
+	margin-top: 20px;
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+}
+
+header div.welcome a {
+	display: block;
+	width: 215px;
+	height: 50px;
+	color: #fff;
+	background: #fed136;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 24px;
+	line-height: 50px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+header div.welcome a:hover {
+	background: #fe8636;
+}
+
+.services {
+	padding-top: 116px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.services_krug {
+	 border: 2px solid #feda5e;
+     border-radius: 50%;
+     
+}
+
+.services_title {
+	font-size: 40px;
+	font-family: 'montserrat_bold';
+	font-weight: bold;
+}
+
+.services_text {
+	margin-bottom: 80px;
+}
+
+/*портфолио*/
+
+.portfolio {
+	padding-top: 240px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.our_card {
+	margin-bottom: 50px;
+	margin-right: 35px;
+}
+
+.portfolio_subtitle {
+	font-size: 18px;
+}
+
+.portfolio_subtext {
+	font-size: 14px;	
+}
+
+.our_card:hover {
+	color: grey;
+}
+
+/*about*/
+
+.about {
+	padding-top: 120px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+
+
+/*team*/
+
+.team {
+	padding-top: 240px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.team_text {
+	padding-top: 48px;
+	
+}
+
+/*footer*/
+.footer {
+	color: #ffffff;
+	text-align: center;
+	background-size: cover;
+	background-position: 0 100%;
+	padding: 210px 0;
+	background-image: url(../images/footer.png);
+}
